@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
 }
-h1 {
+.frist-heading {
     font-style: normal;
     font-weight: 20000;
     font-size: 65px;
@@ -15,22 +15,23 @@ h1 {
     
     
 }
-button {
+.contac {
     color: #ffffff;
-    background-color: orange;
+    background-color: #ff5100;
     padding: 20px;
     font-size: 25px;
     border: none;
     border-radius: 5px;
     margin-left: 200px;
     margin-right: 1000px;
-    box-shadow: 6px 6px 6px black;
+    font-weight: 700;
+    font-family: 'Work Sans';
 
 }
 .frist-p {
     font-family: 'Work Sans';
     margin-left: 200px;
-    margin-right: 1000px;
+    margin-right: 1150px;
 }
 article {
     margin: 200px 200px;
@@ -62,12 +63,6 @@ ul {
 }
 
 /* plan section */
-.icon-bar {
-    font-family: 'Work Sans';
-    display: flex;
-    justify-content: space-between;
-    margin: 0 400px;
-}
 .head-line {
     text-align: center;
     font-size: 40px;
@@ -75,6 +70,85 @@ ul {
     font-family: 'Work Sans';
 }
 
+.icon-bar {
+    font-family: 'Work Sans';
+    display: flex;
+    justify-content: space-between;
+    margin: 0 350px;
+    text-align: center;
+}
+.icon-head {
+    font-size: 30px;
+    font-weight: 700;
+}
+.icon-p {
+    font-size: 25px;
+    font-weight: 500;
+}
+/* blend section */
+.blend {
+    margin: 100px 300px;
+    background-image: url(./images/gradient1.png), url(./images/watch.png) ;
+    background-size: cover;
+    border-radius: 10px;
+}
+.blend-heading{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 700px;
+}
+.call {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 60px;
+    margin-bottom: 40px;
+    padding: 25px;
+    color: orangered;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+/* footer section */
+footer {
+    font-family: 'Work Sans';
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.text {
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 700px;
+    margin-bottom: 100px;
+}
+.subs-head {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.email {
+    margin-right: 300px;
+    margin-top: 100px;
+}
+input {
+    width: 225px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+.subscribe-button{
+    color: #d11414;
+    margin-top: 15px;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+}
 
 
 
