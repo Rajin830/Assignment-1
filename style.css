@@ -1,0 +1,80 @@
+body {
+    background-color: #ffffff;
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+h1 {
+    font-style: normal;
+    font-weight: 20000;
+    font-size: 65px;
+    margin-top: 216px;
+    margin-left: 200px;
+    margin-right: 1000px;
+    font-family: 'Work Sans';
+    
+    
+}
+button {
+    color: #ffffff;
+    background-color: orange;
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-right: 1000px;
+    box-shadow: 6px 6px 6px black;
+
+}
+.frist-p {
+    font-family: 'Work Sans';
+    margin-left: 200px;
+    margin-right: 1000px;
+}
+article {
+    margin: 200px 200px;
+    display: flex;
+    
+}
+.heading-two {
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-right: 50px;
+    margin-right: 100px;
+}
+h2 {
+    font-size: 45px;
+    font-family: 'Work Sans';
+    font-weight: 700px;
+}
+.secend-p {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 100px;
+}
+.Person-image {
+    margin-left: 100px;
+}
+ul {
+    padding: 20px;
+}
+
+/* plan section */
+.icon-bar {
+    font-family: 'Work Sans';
+    display: flex;
+    justify-content: space-between;
+    margin: 0 400px;
+}
+.head-line {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans';
+}
+
+
+
+
